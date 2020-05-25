@@ -274,7 +274,7 @@ img.logo {
 .member h2 {
   width: 100%;
   font-size: 17px;
-  border-top: 1px solid white;
+  border-top: 2px solid white;
   color: white;
 }
 
@@ -564,6 +564,21 @@ img.logo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color: white;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .form_details img {
+    width: 30px;
+    position: absolute;
+    top: 21%;
+    left: 84.5%;
+  }
+  .member h2 {
+    width: 70%;
+    margin: auto;
+    font-size: 17px;
+    border-top: 2px solid white;
     color: white;
   }
 }
