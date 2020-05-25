@@ -319,6 +319,8 @@ img.logo {
 }
 .question label {
   padding: 10px;
+  color: white;
+  text-decoration: none;
 }
 .question p {
   padding: 6px;
