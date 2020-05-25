@@ -179,7 +179,7 @@ img.logo {
   height: 5vh;
   color: white;
   background: #1c1f4c;
-  margin-top: 3px;
+  margin-top: 20px;
   border-radius: 5px;
   font-family: Georgia, "Times New Roman", Times, serif;
   border: none;
@@ -336,14 +336,18 @@ img.logo {
   img.menu_btn {
     width: 30px;
   }
+  .form_details {
+    width: 90%;
+    height: 90%;
+  }
   .popup_form {
     width: 80%;
-    height: 50%;
+    height: 65vh;
   }
   .form_details img {
     width: 30px;
     position: absolute;
-    top: 21%;
+    top: 13%;
     left: 88.5%;
   }
   */
