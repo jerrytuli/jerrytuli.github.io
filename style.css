@@ -358,7 +358,7 @@ img.logo {
   /* company services */
   .services {
     width: 65%;
-    height: 105vh;
+    height: 110vh;
     margin: auto;
   }
   .service h2 {
@@ -374,7 +374,13 @@ img.logo {
   }
 
   /* company team */
-
+  .team {
+    width: 90%;
+    margin: auto;
+    height: 110vh;
+    background: #1f5c70;
+    text-align: center;
+  }
   .member {
     width: 60%;
     margin: 5px auto;
@@ -396,7 +402,7 @@ img.logo {
 
   /* footer */
   .footer {
-    height: 68vh;
+    height: 75vh;
   }
 
   .social_icons i {
