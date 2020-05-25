@@ -456,6 +456,16 @@ img.logo {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 
+  .popup_form {
+    width: 50%;
+    height: 50%;
+  }
+  .form_details img {
+    width: 30px;
+    position: absolute;
+    top: 21%;
+    left: 74%;
+  }
   /* company services */
   .services {
     width: 90%;
@@ -572,7 +582,11 @@ img.logo {
     width: 30px;
     position: absolute;
     top: 21%;
-    left: 84.5%;
+    left: 67.5%;
+  }
+  .popup_form {
+    width: 36%;
+    height: 50%;
   }
   .member h2 {
     width: 70%;
