@@ -33,7 +33,7 @@ img.menu_btn {
 }
 img.logo {
   margin-left: 20px;
-  width: 60px;
+  width: 53px;
 }
 
 /* landing banner */
@@ -431,3 +431,4 @@ img.logo {
     font-size: 13px;
   }
 }
+@media screen and (min-width: );
