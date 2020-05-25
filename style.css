@@ -338,18 +338,13 @@ img.logo {
   }
   .popup_form {
     width: 80%;
-    height: 70%;
-    border-radius: 5px;
-    margin: auto;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.15),
-        rgba(0, 0, 0, 0.15),
-        rgba(0, 0, 0, 0.15)
-      ),
-      white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 50%;
+  }
+  .form_details img {
+    width: 30px;
+    position: absolute;
+    top: 21%;
+    left: 88.5%;
   }
   /* company logo */
   img.logo {
