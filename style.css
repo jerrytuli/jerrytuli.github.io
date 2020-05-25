@@ -347,14 +347,20 @@ img.logo {
     height: calc(100vh - 10vh);
   }
   .banner h1 {
-    font-size: 50px;
+    font-size: 42px;
   }
   .banner a {
+    border: 1.45px solid white;
     font-size: 16px;
     padding: 8px 12px;
   }
 
   /* company services */
+  .services {
+    width: 65%;
+    height: 105vh;
+    margin: auto;
+  }
   .service h2 {
     font-size: 18px;
     color: #642b73;
@@ -371,10 +377,10 @@ img.logo {
 
   .member {
     width: 60%;
-    margin: 10px auto;
+    margin: 5px auto;
     text-align: center;
     border: none;
-    padding: 15px;
+    padding: 8px;
     border-radius: 5px;
     color: white;
   }
@@ -390,7 +396,7 @@ img.logo {
 
   /* footer */
   .footer {
-    height: 60vh;
+    height: 68vh;
   }
 
   .social_icons i {
