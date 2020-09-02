@@ -101,7 +101,11 @@ body {
 }
 .aboutSpirulina {
   width: 100%;
-  background: #fd8f01;
+  background: linear-gradient(
+    rgba(253, 143, 1, 0.98),
+    rgba(253, 143, 1, 0.98),
+    rgba(253, 143, 1, 0.98)
+  );
   margin: auto;
   padding: 1px 1px;
   border-radius: 5px;
@@ -137,9 +141,12 @@ body {
   text-align: start;
   font-size: 10px;
 }
-.box1 {
+.box1,
+.box2,
+.box3 {
   flex-basis: 30%;
   border: 1px solid black;
+  box-shadow: 0 0 3px black;
   border-radius: 10px;
   text-align: center;
 }
@@ -148,18 +155,9 @@ body {
 }
 .box2 {
   color: white;
-  flex-basis: 30%;
-  border: 1px solid black;
-  border-radius: 10px;
   background-color: #0a1c24;
-  text-align: center;
 }
-.box3 {
-  flex-basis: 30%;
-  border: 1px solid black;
-  border-radius: 10px;
-  text-align: center;
-}
+
 .box3 img {
   width: 60px;
   padding: 15px;
@@ -170,12 +168,12 @@ body {
   padding: 1px;
   display: flex;
   flex-direction: column;
-  /* background: linear-gradient(
-      rgba(10, 28, 36, 0.88),
-      rgba(10, 28, 36, 0.88),
-      rgba(10, 28, 36, 0.88)
+  background: linear-gradient(
+      rgba(10, 28, 36, 0.9),
+      rgba(10, 28, 36, 0.9),
+      rgba(10, 28, 36, 0.9)
     ),
-    url(./img/bodybg.jpg) center/cover no-repeat; */
+    url(./img/spirulina.jpg) center/cover no-repeat;
 }
 .benefitsTittle h1 {
   color: white;
@@ -191,6 +189,7 @@ body {
   width: 70%;
   border: 1px solid #fd8f01;
   border-radius: 10px;
+  box-shadow: 0 0 5px #fd8f01;
 }
 .benefitsInsidediv p {
   font-size: 15px;
